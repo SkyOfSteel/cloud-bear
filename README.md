@@ -1,4 +1,4 @@
-# Cloud Bear ![Bear logo](images/bear_100x100.png)
+# Cloud Bear ![Bear logo](images/bear_100x80.png)
 
 A command line utility to work with AWS services.
 
