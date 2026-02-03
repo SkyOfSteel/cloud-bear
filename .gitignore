@@ -1,3 +1,4 @@
 DEFAULTS.py
 test.txt
 __pycache__/
+.venv/
