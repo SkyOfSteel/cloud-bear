@@ -1,4 +1,4 @@
-# Static Site Generator
+# Cloud Bear ![Bear logo](images/bear_100x100.png)
 
 A command line utility to work with AWS services.
 
