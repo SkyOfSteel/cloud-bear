@@ -28,8 +28,4 @@ If the bucket name is not provided, it is imported from DEFAULTS.py (BUCKET_NAME
 
 ## Next Steps
 
-Add a file with a function to list buckets:
-
-// Print out bucket names
-// for bucket in s3.buckets.all():
-//    print(bucket.name)
+Add kwargs to use the script with arguments.
