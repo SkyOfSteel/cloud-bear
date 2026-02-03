@@ -4,7 +4,9 @@ A command line utility to work with AWS services via boto3.
 
 ## Motivation
 
-WIP
+The goal behind the project is to build a CLI-native local tool for common AWS use cases: file upload, resource management, basic infrastructure deployment.
+
+The tool facilitates commonplace operations while providing a degree of convenience with extra CLI flags.
 
 ## Quick Start
 
@@ -29,3 +31,10 @@ If the bucket name is not provided, it is imported from DEFAULTS.py (BUCKET_NAME
 ## Next Steps
 
 Add kwargs to use the script with arguments.
+
+Ideas:
+
+--list-buckets
+--upload
+--help
+--bucket and --key as options.
