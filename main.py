@@ -6,7 +6,12 @@ from print_s3_buckets import list_s3_buckets
 
 parser = ArgumentParser()
 parser.add_argument('-l', '--list', help='Lists the buckets that exist in your AWS account.', action='store_true')
-args: Namespace = parser.parse_known_args()
+
+# parser.parse_known_args() returns a tuple - the first element [0] is a list of parsed arguments like -l and --list,
+# the second is a list of unknown arguments like filepath and bucket name
+# since I am using sys.argv, I do not need the second list at the moment
+
+args: Namespace = parser.parse_known_args()[0]
 
 def main():
     if args.list:
