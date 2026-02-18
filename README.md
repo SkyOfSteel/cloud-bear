@@ -17,10 +17,16 @@ WIP
 Upload a file to S3:
 
 ```
-python3 upload_to_s3.py <filename> [bucket name]
+python3 main.py <filename> [bucket name]
 ```
 
 If the bucket name is not provided, it is imported from DEFAULTS.py (BUCKET_NAME).
+
+List the S3 buckets on your account:
+
+```
+python3 main.py [-l] [--list]
+```
 
 ## Requirements
 
